@@ -89,7 +89,7 @@ export class TimesService {
      * rank: t.rank
      * força o retorno do rank atualizado.
      */
-    return this.times.map(t => ({ ...t, rank: t.rank }));
+  return this.times.sort((a, b) => b.vitorias - a.vitorias);
   }
 
 
