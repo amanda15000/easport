@@ -9,6 +9,7 @@ export class Time {
     this.nome = dados?.nome || '';
     this.jogo = dados?.jogo || '';
     this.vitorias = dados?.vitorias || 0;
+    this.jogo = dados?.jogo || '';
   }
 
   // Método para o Front-end saber o nível do time
